@@ -1,0 +1,21 @@
+{
+	"name": "t3brightside/microstart",
+	"description": "Microtemplate example data to get going",
+	"keywords": ["TYPO3", "Template", "example"],
+	"homepage": "https://microtemplate.t3brightside.com/",
+	"license": "GPL-2.0-or-later",
+	"authors": [{
+		"name": "Tanel Põld",
+		"role": "Developer",
+		"homepage": "https://t3brightside.com"
+	}],
+	"require": {
+		"t3brightside/microtemplate": "^4.0",
+        "t3brightside/pagelist": "^3.6",
+        "t3brightside/personnel": "^3.5",
+        "t3brightside/gallerycontent": "^1.6",
+        "t3brightside/youtubevideo": "^2.3",
+        "t3brightside/advancedtitle": "^1.1",
+        "t3brightside/favicon": "^1.1"
+	}
+}

@@ -1,0 +1,109 @@
+
+renderingOptions:
+  submitButtonLabel: 'Send Message'
+  fieldState:
+    text-1:
+      type: Text
+      identifier: text-1
+      label: Name
+      renderingOptions:
+        deleted: 0
+        listView: 1
+    email-1:
+      type: Email
+      identifier: email-1
+      label: Email
+      renderingOptions:
+        deleted: 0
+        listView: 1
+    textarea-1:
+      type: Textarea
+      identifier: textarea-1
+      label: Message
+      renderingOptions:
+        deleted: 0
+        listView: 1
+    linkedcheckbox-1:
+      type: LinkedCheckbox
+      identifier: linkedcheckbox-1
+      label: 'Agree to the terms of %s'
+      renderingOptions:
+        deleted: 0
+        listView: 0
+type: Form
+identifier: contactUs
+label: 'Contact Us'
+prototypeName: standard
+finishers:
+  -
+    options:
+      pageUid: '26'
+      additionalParameters: ''
+    identifier: Redirect
+renderables:
+  -
+    renderingOptions:
+      previousButtonLabel: 'Previous step'
+      nextButtonLabel: 'Next step'
+    type: Page
+    identifier: page-1
+    label: ''
+    renderables:
+      -
+        type: GridRow
+        identifier: gridrow-3
+        label: 'Grid: Row'
+        renderables:
+          -
+            type: GridRow
+            identifier: gridrow-1
+            label: 'Grid: Row'
+            renderables:
+              -
+                defaultValue: ''
+                type: Text
+                identifier: text-1
+                label: Name
+                properties:
+                  fluidAdditionalAttributes:
+                    required: required
+                validators:
+                  -
+                    identifier: NotEmpty
+              -
+                defaultValue: ''
+                type: Email
+                identifier: email-1
+                label: Email
+                properties:
+                  fluidAdditionalAttributes:
+                    required: required
+                validators:
+                  -
+                    identifier: EmailAddress
+                  -
+                    identifier: NotEmpty
+          -
+            type: GridRow
+            identifier: gridrow-2
+            label: 'Grid: Row'
+            renderables:
+              -
+                defaultValue: ''
+                type: Textarea
+                identifier: textarea-1
+                label: Message
+                properties:
+                  elementDescription: ''
+                  fluidAdditionalAttributes:
+                    required: required
+                    minlength: '5'
+                    maxlength: '1000'
+                validators:
+                  -
+                    identifier: NotEmpty
+                  -
+                    options:
+                      minimum: '5'
+                      maximum: '1000'
+                    identifier: StringLength
