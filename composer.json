@@ -10,12 +10,12 @@
 		"homepage": "https://t3brightside.com"
 	}],
 	"require": {
-		"t3brightside/microtemplate": "^4.0",
-        "t3brightside/pagelist": "^3.6",
-        "t3brightside/personnel": "^3.5",
-        "t3brightside/gallerycontent": "^1.6",
-        "t3brightside/youtubevideo": "^2.3",
-        "t3brightside/advancedtitle": "^1.1",
+		"t3brightside/microtemplate": "^4.1",
+        "t3brightside/pagelist": "^3.8",
+        "t3brightside/personnel": "^3.8",
+        "t3brightside/gallerycontent": "^1.9",
+        "t3brightside/youtubevideo": "^2.4",
+        "t3brightside/advancedtitle": "^1.2",
         "t3brightside/favicon": "^1.1"
 	}
 }
