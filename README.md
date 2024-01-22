@@ -15,6 +15,7 @@
 - copy files from vendor/t3brightside/microstart/data/fileadmin/
 - import database from vendor/t3brightside/microstart/data/base.sql.gz
 - back end admin user: **admin**, password: **Admin1234**
+- change the admin password as the first thing
 
 ## Sources
 - [GitHub](https://github.com/t3brightside/microstart)
