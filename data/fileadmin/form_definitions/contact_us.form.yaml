@@ -37,6 +37,21 @@ prototypeName: standard
 finishers:
   -
     options:
+      subject: 'Microtemplate contact form'
+      recipients:
+        tanel@brightside.ee: ''
+      senderAddress: info@brightside.ee
+      senderName: Microtemplate
+      replyToRecipients:
+        '{email-1}': '{text-1}'
+      addHtmlPart: true
+      attachUploads: true
+      translation:
+        language: Default
+      title: ''
+    identifier: EmailToReceiver
+  -
+    options:
       pageUid: '26'
       additionalParameters: ''
     identifier: Redirect
@@ -107,3 +122,14 @@ renderables:
                       minimum: '5'
                       maximum: '1000'
                     identifier: StringLength
+      -
+        type: TypolinkCheckbox
+        identifier: typolinkcheckbox-1
+        label: 'Agree to [[data privacy statement]]'
+        properties:
+          link: 't3://page?uid=1#329'
+          fluidAdditionalAttributes:
+            required: required
+        validators:
+          -
+            identifier: NotEmpty
