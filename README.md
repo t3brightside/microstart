@@ -16,7 +16,8 @@
 - import database from vendor/t3brightside/microstart/data/base.sql.gz
 - back end admin user: **admin**, password: **Admin1234#**
 - maintenance > analyze database structure
-- add 'webp' to [GFX][imagefile_ext] and [SYS][mediafile_ext] in 'Configure Installation-Wide Options'
+- add 'webp' to [GFX][imagefile_ext] and [SYS][mediafile_ext] in 'Settings > Configure Installation-Wide Options'
+- in 'Settings > Extension Configuration > Pagelist' enable at least 'Articles' and 'Events' page types  and 'Personnel author fields' accordingly
 - create a site configuration
 - change the admin password as the first thing
 - change the forms 'Contact Us' > 'Email to receiver' addresses and names to yours
