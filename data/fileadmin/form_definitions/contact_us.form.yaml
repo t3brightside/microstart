@@ -39,8 +39,8 @@ finishers:
     options:
       subject: 'Microtemplate contact form'
       recipients:
-        tanel@brightside.ee: ''
-      senderAddress: info@brightside.ee
+        info@example.com: ''
+      senderAddress: info@example.com
       senderName: Microtemplate
       replyToRecipients:
         '{email-1}': '{text-1}'

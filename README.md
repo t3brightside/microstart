@@ -19,6 +19,7 @@
 - add 'webp' to [GFX][imagefile_ext] and [SYS][mediafile_ext] in 'Configure Installation-Wide Options'
 - create a site configuration
 - change the admin password as the first thing
+- change the forms 'Contact Us' > 'Email to receiver' addresses and names to yours
 
 ## Sources
 - [GitHub](https://github.com/t3brightside/microstart)
