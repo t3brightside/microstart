@@ -16,3 +16,6 @@
 1.5.0
     - [TASK] Update the database
     - [TASK] Improve install instructions
+1.5.1
+    - [TASK] set example e-mails in contact form
+    - [TASK] put things in right order in README
