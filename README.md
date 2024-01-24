@@ -21,6 +21,52 @@
 - create a site configuration
 - change the admin password as the first thing
 - change the forms 'Contact Us' > 'Email to receiver' addresses and names to yours
+- set route enhancers for pretty URL's in 'config/sites/your-site-name/confix.xml'
+```yaml
+routeEnhancers:
+  PaginatedprocessorsByContentId:
+    type: Simple
+    routePath: '/{paginatorId}/{paginationPage}'
+    aspects:
+      paginatorId:
+        type: PaginatedprocessorsContentMapper
+      paginationPage:
+        type: StaticRangeMapper
+        start: '0'
+        end: '999'
+  PaginatedprocessorsByUnigueIdInTs:
+    type: Simple
+    routePath: '/{paginatorId}/{paginationPage}'
+    aspects:
+      paginatorId:
+        type: StaticValueMapper
+        map:
+          files: files
+          gallery: gallery
+          pagelist: pagelist
+      paginationPage:
+        type: StaticRangeMapper
+        start: '0'
+        end: '999'
+  PersonnelVcard:
+    type: Simple
+    routePath: '/{person}'
+    defaults:
+      tag: ''
+    requirements:
+      person: '[1-999]'
+    _arguments:
+      person: person
+    aspects:
+      person:
+        type: StaticRangeMapper
+        start: '1'
+        end: '999'
+  PageTypeSuffix:
+    type: PageType
+    map:
+      vcard.vcf: 888
+```
 
 ## Sources
 - [GitHub](https://github.com/t3brightside/microstart)
