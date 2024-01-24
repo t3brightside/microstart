@@ -12,9 +12,12 @@
 ## Install
 - install TYPO3 v12
 - install microstart content and recommended packages by `composer req t3brightside/microstart`
-- copy files from vendor/t3brightside/microstart/data/fileadmin/
+- copy folders from vendor/t3brightside/microstart/data/fileadmin/ to public/fileadmin/
 - import database from vendor/t3brightside/microstart/data/base.sql.gz
-- back end admin user: **admin**, password: **Admin1234**
+- maintenance > analyze database structure
+- add 'webp' to [GFX][imagefile_ext] and [SYS][mediafile_ext] in 'Configure Installation-Wide Options'
+- create a site configuration
+- back end admin user: **admin**, password: **Admin1234#**
 - change the admin password as the first thing
 
 ## Sources
