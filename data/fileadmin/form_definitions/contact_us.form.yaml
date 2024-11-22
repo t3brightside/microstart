@@ -23,13 +23,6 @@ renderingOptions:
       renderingOptions:
         deleted: 0
         listView: 1
-    linkedcheckbox-1:
-      type: LinkedCheckbox
-      identifier: linkedcheckbox-1
-      label: 'Agree to the terms of %s'
-      renderingOptions:
-        deleted: 0
-        listView: 0
 type: Form
 identifier: contactUs
 label: 'Contact Us'
