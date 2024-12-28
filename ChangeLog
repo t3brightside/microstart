@@ -19,3 +19,7 @@
 1.5.1
     - [TASK] set example e-mails in contact form
     - [TASK] put things in right order in README
+2.0.0
+    - [TASK] Base on TYPO3 v13
+    - [TASK] add ext:addresses & ext:addressespersonnel
+    - [TASK] add ext:favicon
