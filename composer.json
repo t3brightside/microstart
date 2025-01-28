@@ -10,7 +10,7 @@
 		"homepage": "https://t3brightside.com"
 	}],
 	"require": {
-		"t3brightside/microtemplate": "dev-master",
+		"t3brightside/microtemplate": "^5.0",
 		"t3brightside/pagelist": "^4.0",
 		"t3brightside/addresses": "^1.1",
 		"t3brightside/personnel": "^4.2",
