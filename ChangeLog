@@ -23,3 +23,6 @@
     - [TASK] Base on TYPO3 v13
     - [TASK] add ext:addresses & ext:addressespersonnel
     - [TASK] add ext:favicon
+2.0.1
+    - eb0a85e [TASK] update compatibility information
+    - 3abfca2 [TASK] change microtemplate dependency to ^5.0
