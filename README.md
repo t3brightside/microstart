@@ -10,7 +10,7 @@
 - **[Microtemplate in TYPO3 Now Package](https://t3brightside.com/typo3-now)**
 
 ## Install
-- install TYPO3 v12
+- install TYPO3 v13
 - install microstart content and recommended packages by `composer req t3brightside/microstart`
 - copy folders from vendor/t3brightside/microstart/data/fileadmin/ to public/fileadmin/
 - import database from vendor/t3brightside/microstart/data/base.sql.gz
